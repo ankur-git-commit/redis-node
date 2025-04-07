@@ -1,3 +1,5 @@
+// docker redis command : docker run --name redis-container -p 6379:6379 -d redis
+
 import express from "express"
 import axios from "axios"
 import { createClient } from "redis"
